@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: rgba(223, 173, 122, 0.336);
+    font-family: 'Indie Flower', cursive;
+}
+
+#header_div {
+    background-color: rgba(62, 64, 173, 0.281);
+    padding-top: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#images {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 100px;
+    object-fit: contain;
+}
+
+.copy_right_footer {
+    margin-top: 400px;
+    background-color: rgba(121, 72, 44, 0.267);
+    line-height: 110%;
+    font-size: 20px;
+    text-shadow: 2in;
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+#button_start {
+
+    font-style: normal;
+    margin-top: 100px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.AnimalImages {
+    visibility: hidden;
+    margin-left: 1000px;
+    width: 1px;
+    height: 1px;
+}

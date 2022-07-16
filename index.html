@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js" target="_blank"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+    <title>Identificador de Sons de Animais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div id="header_div">
+            <h2>Identificador de sons de Animais</h2>
+            <p>Nota: Reproduza diferentes sons, como latidos e miados.</p>
+        </div>
+        <div id="main_div">
+            <button class="btn-success" id="button_start" onclick="startClassification()">Iniciar</button>
+            <h4 id="vezes_audio"></h4>
+            <h3 id="audio_detectado"></h3>
+        </div>
+        <br>
+        <br>
+        <img id="images">
+        <div class="copy_right_footer">Desenvolvedor --> André Mateus</div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
