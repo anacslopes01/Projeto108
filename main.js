@@ -16,7 +16,7 @@ function startClassification() {
 
 function modelReady() {
     document.getElementById("vezes_audio").innerHTML = 'Posso ouvir';
-    document.getElementById("images").src = "images/ouvir.png";
+    document.getElementById("images").src = "ouvir.png";
     classifier.classify(gotResults);
 }
 
@@ -48,11 +48,11 @@ function gotResults(error, results) {
             dogCount++;
         }
         else if (results[0].label == "Miado") {
-            document.getElementById("images").src = /gato.png";
+            document.getElementById("images").src = "gato.png";
             catCount++;
         }
         else if (results[0].label == "Rugido") {
-            document.getElementById("images").src = /leao.png";
+            document.getElementById("images").src = "images/leao.png";
             lionCount++;
         }
         else if (results[0].label == "Mugido") {
