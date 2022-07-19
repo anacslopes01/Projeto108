@@ -44,23 +44,23 @@ function gotResults(error, results) {
 
 
         if (results[0].label == "Latido") {
-            document.getElementById("images").src = "images/cachorro.png";
+            document.getElementById("images").src = "cachorro.png";
             dogCount++;
         }
         else if (results[0].label == "Miado") {
-            document.getElementById("images").src = "images/gato.png";
+            document.getElementById("images").src = /gato.png";
             catCount++;
         }
         else if (results[0].label == "Rugido") {
-            document.getElementById("images").src = "images/leao.png";
+            document.getElementById("images").src = /leao.png";
             lionCount++;
         }
         else if (results[0].label == "Mugido") {
-            document.getElementById("images").src = "images/vaca.png";
+            document.getElementById("images").src = "vaca.png";
             cowCount++;
         }
         else if (results[0].label == "Macaco") {
-            document.getElementById("images").src = "images/macaco.png";
+            document.getElementById("images").src = "macaco.png";
             monkeyCount++;
         }
 
